@@ -1,0 +1,76 @@
+.tasks {
+  margin: 0 auto;
+  margin-top: 90px;
+  padding: 1rem;
+  margin-bottom: 4rem;
+  background: #0d0d0d;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+.taskInfo {
+  padding: 1.5rem 0 1.2rem 0;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 2rem;
+}
+.taskInfo > div {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.header p {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.textGreen {
+  color: #0a9b0a;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+/***********/
+
+.newTaskForm {
+  height: 54px;
+  bottom: -27px;
+  display: flex;
+  gap: 8px;
+}
+
+.newTaskForm input {
+  height: 90%;
+  flex: 1;
+  color: #fff;
+  background: #262626;
+  border: 1px solid #0d0d0d;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.newTaskForm input::placeholder {
+  color: #808080;
+}
+
+.newTaskForm button {
+  height: 90%;
+  padding: 0 0.5rem;
+  background: #1e6f9f;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: 700;
+  font-size: 14px;
+}
